@@ -7,10 +7,10 @@
 
     <ul class="flex items-center gap-16  text-base">
       <img :src="logo" alt="Logo" class="h-18" />
-      <li class="cursor-pointer">Companies</li>
-      <li class="cursor-pointer">Reviews</li>
-      <li class="cursor-pointer">Submit</li>
-      <li class="cursor-pointer text-[#1C2E4A] rounded-2xl bg-white px-3 py-1">More</li>
+      <RouterLink class="cursor-pointer" to="/companies">Companies</RouterLink>
+      <RouterLink class="cursor-pointer" to="">Reviews</RouterLink>
+      <RouterLink class="cursor-pointer" to="">Submit</RouterLink>
+      <RouterLink class="cursor-pointer text-[#1C2E4A] rounded-2xl bg-white px-3 py-1" to="">More</RouterLink>
     </ul>
 
     <div class="flex flex-row gap-3">

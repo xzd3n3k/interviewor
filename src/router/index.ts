@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
-import CampainView from "@/views/CampainView.vue";
 import CompaniesView from "@/views/CompaniesView.vue";
 
 const router = createRouter({
@@ -13,13 +12,18 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/campain',
-      name: 'campain',
-      component: CampainView
-    },
-    {
       path: '/companies',
       name: 'companies',
+      component: CompaniesView
+    },
+    {
+      path: '/reviews',
+      name: 'reviews',
+      component: CompaniesView
+    },
+    {
+      path: '/submit',
+      name: 'submit',
       component: CompaniesView
     },
     {

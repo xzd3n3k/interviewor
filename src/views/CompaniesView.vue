@@ -1,8 +1,13 @@
 <script setup lang="ts">
+    const source: string[] = [
+        "Jedna", "dvě", "honza", "jde"
+    ];
 </script>
 
 <template>
-  Not found
+  <div>
+    <p v-for="value in source">{{ value }}</p>
+  </div>
 </template>
 
 <style scoped>
