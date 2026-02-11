@@ -8,7 +8,6 @@
       id="home"
       class="relative min-h-screen w-full bg-no-repeat bg-cover bg-center"
   >
-    <Navbar />
     <div class="font-bold text-6xl flex flex-col gap-2 justify-center items-center text-center">
 
       Know the truth about where you want to apply
