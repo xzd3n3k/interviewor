@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Navbar from "@/components/Navbar.vue";
+  import Hero1 from "@/components/Hero1.vue";
 </script>
 
 <template>
@@ -8,11 +8,7 @@
       id="home"
       class="relative min-h-screen w-full bg-no-repeat bg-cover bg-center"
   >
-    <div class="font-bold text-6xl flex flex-col gap-2 justify-center items-center text-center">
-
-      Know the truth about where you want to apply
-
-    </div>
+    <Hero1 />
   </section>
 
   <!-- Features -->
