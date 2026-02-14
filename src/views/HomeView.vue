@@ -1,5 +1,6 @@
 <script setup lang="ts">
-  import Hero1 from "@/components/Hero1.vue";
+  import HeroMain from "@/components/HeroMain.vue";
+  import HeroFeatures from "@/components/HeroFeatures.vue";
 </script>
 
 <template>
@@ -8,15 +9,12 @@
       id="home"
       class="relative min-h-screen w-full bg-no-repeat bg-cover bg-center"
   >
-    <Hero1 />
+    <HeroMain/>
   </section>
 
   <!-- Features -->
   <section id="about" class="bg-white w-full min-h-screen p-8">
-    <h2 class="text-3xl font-semibold mb-4">Features</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scroll down to see more content.
-    </p>
+    <HeroFeatures/>
   </section>
 </template>
 
